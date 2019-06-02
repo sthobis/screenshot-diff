@@ -1,0 +1,12 @@
+{
+    "version": 2,
+    "alias": "screenshoot-diff",
+    "builds": [
+        { "src": "public/*", "use": "@now/static" },
+        { "src": "index.js", "use": "@now/node", "config": { "maxLambdaSize": "40mb" } }
+    ],
+    "routes": [
+        { "src": "/favicon.ico", "dest": "/public/favicon.ico" },
+        { "src": "/", "dest": "/index.js" }
+    ]
+}

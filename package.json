@@ -1,0 +1,14 @@
+{
+  "name": "screenshoot-diff",
+  "version": "1.0.0",
+  "description": "Find differences two images",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "chrome-aws-lambda": "1.11.1",
+    "pixelmatch": "^4.0.2",
+    "pngjs": "^3.4.0",
+    "puppeteer-core": "1.11.0",
+    "stream-to-buffer": "^0.1.0"
+  }
+}
